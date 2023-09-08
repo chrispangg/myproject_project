@@ -1,5 +1,5 @@
 - name: configure webserver
-  hosts: worker1
+  hosts: all
   tasks:
   - name: install package
     yum:
